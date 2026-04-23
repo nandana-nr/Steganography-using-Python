@@ -1,3 +1,4 @@
+# Extracts and decrypts hidden message from an encrypted image
 import cv2
 import os
 
