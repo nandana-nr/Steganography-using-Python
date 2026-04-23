@@ -1,32 +1,81 @@
-Secure Data Hiding in Images Using Steganography
+# Image Steganography with Encryption (Python)
 
-Overview
-This project focuses on enhancing secure communication by integrating steganography and encryption techniques. The system first encrypts a secret message and then hides it within an image, ensuring confidentiality and undetectability. This dual-layer approach protects sensitive information from unauthorized access and interception.
+## Overview
+This project implements secure data hiding in images by combining encryption and steganography.
 
-Features
-✅ Dual-Layer Security – Encrypts and conceals messages for enhanced protection.
-✅ Steganography-Based Data Hiding – Embeds encrypted text into images without noticeable changes.
-✅ Python-Based Implementation – Efficient and easy-to-use solution using powerful libraries.
-✅ High Imperceptibility – Hidden messages are undetectable by the human eye.
+The secret message is first encrypted and then embedded into an image, ensuring both confidentiality and stealth during transmission.
 
-Technologies Used :
-Programming Language: Python
-Libraries :
-OpenCV – Image processing
-NumPy – Data manipulation
-Pillow – Image handling
+---
 
-End Users
-Government Agencies – Secure transmission of classified information.
-Journalists & Whistleblowers – Concealed communication in restrictive environments.
-Cybersecurity Experts – Protection of sensitive data against cyber threats.
-Researchers & Academicians – Study and enhancement of steganography techniques.
+## How It Works
 
-Conclusion
-This project successfully integrates encryption and steganography to create a highly secure data-hiding system within images. The combination of cryptographic protection and hidden transmission ensures confidentiality, integrity, and stealth in communication.
+1. The secret message is encrypted using a passcode  
+2. Encrypted data is embedded into an image (pixel-level encoding)  
+3. The image is shared securely  
+4. The receiver extracts and decrypts the hidden message  
 
-Future Scope
-🔹 AI-Powered Steganalysis Resistance – Enhancing robustness against detection techniques.
-🔹 Real-Time Steganography – Implementing live encoding and decoding for secure messaging.
-🔹 Multi-Format Support – Expanding compatibility beyond images to videos and audio files.
-🔹 Cloud-Based Secure Communication – Hosting encrypted steganographic messages on the cloud for seamless access.
+---
+
+## Project Structure
+
+- encrypt.py → Encrypts the secret message and embeds it into the image  
+- decrypt.py → Extracts and decrypts the hidden message  
+- steganography_basic.py → Basic implementation of image steganography  
+
+---
+
+## Tech Stack
+
+- Python  
+- OpenCV  
+- NumPy  
+- Pillow  
+
+---
+
+## How to Run
+
+1. Install dependencies:
+pip install opencv-python numpy pillow
+
+2. Run encryption:
+python encrypt.py
+
+3. Hide message in image:
+python steganography_basic.py
+
+4. Decrypt message:
+python decrypt.py
+
+---
+
+## Key Features
+
+- Dual-layer security (encryption + steganography)  
+- Image-based hidden communication  
+- Pixel-level data embedding  
+- Password-protected decryption  
+
+---
+
+## Use Cases
+
+- Secure communication  
+- Cybersecurity applications  
+- Data protection  
+- Confidential information sharing  
+
+---
+
+## Future Improvements
+
+- Support for video and audio steganography  
+- AI-based detection resistance  
+- Real-time secure messaging  
+- Cloud-based encrypted communication  
+
+---
+
+## Author
+
+Developed as part of academic and project-based learning in cybersecurity and data protection.
