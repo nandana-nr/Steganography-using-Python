@@ -1,3 +1,4 @@
+# Basic steganography implementation for hiding and retrieving messages in images
 import cv2
 import os
 import string
