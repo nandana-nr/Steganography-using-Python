@@ -78,4 +78,4 @@ python decrypt.py
 
 ## Author
 
-Developed as part of academic and project-based learning in cybersecurity and data protection.
+Developed as part of internship work at Edunet Foundation in collaboration with IBM SkillsBuild.
