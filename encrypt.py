@@ -1,3 +1,4 @@
+# Encrypts a secret message and embeds it into an image using steganography
 import cv2
 import os
 
